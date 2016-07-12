@@ -1,4 +1,3 @@
-name: basemap_widget
 dependencies:
 - appnope=0.1.0=py35_0
 - backports=1.0=py35_0
@@ -63,5 +62,4 @@ dependencies:
   - jupyter-client==4.3.0
   - jupyter-console==4.1.1
   - jupyter-core==4.1.0
-prefix: /Users/dinu/miniconda3/envs/basemap_widget
 
