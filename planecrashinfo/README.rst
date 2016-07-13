@@ -5,6 +5,12 @@ This is an exploration of data found at http://planecrashinfo.com.
 
 The real code and the downloaded data will follow, soon...
 
+**N.B.** This is work in progress… If you have any suggestion, please feel free to raise an issue or provide a pull request.
+
+
+Installation
+------------
+
 Conda ist the recommended packaging system, since pip cannot install ``basemap``. To install all dependencies, just run the following in your root environment::
 
   conda install basemap
