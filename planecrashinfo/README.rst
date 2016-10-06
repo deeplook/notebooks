@@ -27,3 +27,15 @@ or set-up a new environment like this (should take < 30 secs)::
   # this is to remove the environment again:
   source deactivate
   conda env remove -n planes
+
+
+Preparation
+-----------
+
+For the notebook to execute correctly it needs two data files, ``data.csv`` and ``geolocs.json``which are checked into this repository, but can also be created by running the following, respectively::
+
+  python build_database.py
+  python build_geolocations.py
+
+This might take quite a while, ca. 1-2 hours, and create a few additional CSV files, which are not needed for the notebook, but can be nice to play with.
+

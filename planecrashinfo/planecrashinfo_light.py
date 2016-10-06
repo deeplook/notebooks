@@ -114,7 +114,7 @@ def clean_database(df):
     dfc = df.copy()
 
     # drop useless columns
-    dfc = dfc.drop(['Registration:', 'Flight #:', 'cn / ln:'], axis=1)
+    dfc = dfc.drop(['Unnamed: 0', 'Unnamed: 0.1', 'Registration:', 'Flight #:', 'cn / ln:'], axis=1)
 
     # remove trailing ':' in index/column names
     dfc = dfc.rename(columns={cn: cn[:-1] for cn in list(dfc.columns)})
