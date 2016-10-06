@@ -117,5 +117,5 @@ if __name__ == '__main__':
 
     # build full database from single yearly files
     df_all = build_one_database(range(1921, 2017))
-    path = 'data/1921-2016_original.csv'
+    path = 'data/data.csv'
     df_all.to_csv(path)
