@@ -32,7 +32,7 @@ or set-up a new environment like this (should take < 30 secs)::
 Preparation
 -----------
 
-For the notebook to execute correctly it needs two data files, ``data.csv`` and ``geolocs.json``which are checked into this repository, but can also be created by running the following, respectively::
+For the notebook to execute correctly it needs two data files, ``data.csv`` and ``geolocs.json`` which are checked into this repository, but can also be created by running the following, respectively::
 
   python build_database.py
   python build_geolocations.py
