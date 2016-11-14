@@ -21,7 +21,7 @@ This is an exploration of data found at http://planecrashinfo.com, a site that c
 Installation
 ------------
 
-Using Python 3 is recommended, because this is the future! ;-) And Conda is the recommended packaging system, since Pip cannot install Basemap. To install all dependencies in a fresh virtual environment (named `pci` short for `planecrashinfo` here), it is recommended to follow this procedure in your root environment:
+Using Python 3 is recommended, because this is the future! ;-) And Conda is the recommended packaging system, since Pip cannot install Basemap. To install all dependencies in a fresh virtual environment (named ``pci`` short for ``planecrashinfo`` here), it is recommended to follow this procedure in your root environment:
 
 .. code-block:: console
 
@@ -41,7 +41,7 @@ If you want to save a file describing this entire environment in order to recrea
     # recreate environment from exported file
     conda-env create -f environment.yml
 
-You can also try to use the `environment.yml` file contained in this folder.
+You can also try to use the ``environment.yml`` file contained in this folder.
 
 Preparation
 -----------
