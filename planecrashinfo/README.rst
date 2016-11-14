@@ -31,19 +31,6 @@ Using Python 3 is recommended, because this is the future! ;-) And Conda is the 
     # activate environment
     source activate pci
 
-    # interact with the notebook
-    jupyter-notebook planecrashinfo.ipynb
-
-To deactivate and/or remove the environment again you simply do the following:
-
-.. code-block:: console
-
-    # deactivate environment
-    source deactivate pci
-
-    # remove environment
-    conda-env remove -n pci
-
 If you want to save a file describing this entire environment in order to recreate it later, you can also export the environment (once it's created) and recreate it from scratch as shown here:
 
 .. code-block:: console
@@ -59,10 +46,12 @@ You can also try to use the `environment.yml` file contained in this folder.
 Preparation
 -----------
 
-For the notebook to execute correctly it needs two data files, both included in this repo, ``data.csv`` and ``geolocs.json``. These can also be created by running the following commands, respectively::
+For the notebook to execute correctly it needs two data files, both included in this repo, ``data.csv`` and ``geolocs.json``. These can also be created by running the following commands, respectively:
 
-  python build_database.py
-  python build_geolocations.py
+.. code-block:: console
+
+    python build_database.py
+    python build_geolocations.py
 
 This might take quite a while, ca. 1-2 hours, and create a few additional CSV files, which are not needed for the notebook, but can be nice to play with.
 
@@ -70,6 +59,23 @@ This might take quite a while, ca. 1-2 hours, and create a few additional CSV fi
 Exploration
 -----------
 
-To get started exploring the data, just run the Jupyter notebook as follows::
+To get started exploring the data, then just run the Jupyter notebook as follows:
 
-  jupyter-notebook planecrashinfo.ipynb
+.. code-block:: console
+
+    jupyter-notebook planecrashinfo.ipynb
+
+
+Uninstallation
+--------------
+
+To deactivate and/or remove the environment again you simply do the following:
+
+.. code-block:: console
+
+    # deactivate environment
+    source deactivate pci
+
+    # remove environment
+    conda-env remove -n pci
+
