@@ -1,4 +1,4 @@
-name: deeplook_notebooks
+name: pci
 channels: !!python/tuple
 - defaults
 dependencies:

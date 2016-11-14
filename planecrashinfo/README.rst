@@ -21,13 +21,40 @@ This is an exploration of data found at http://planecrashinfo.com, a site that c
 Installation
 ------------
 
-Using Python 3 is recommended, because this is the future! And Conda ist the recommended packaging system, since Pip cannot install Basemap. To install all dependencies, just run the following in your root environment::
+Using Python 3 is recommended, because this is the future! ;-) And Conda is the recommended packaging system, since Pip cannot install Basemap. To install all dependencies in a fresh virtual environment (named `pci` short for `planecrashinfo` here), it is recommended to follow this procedure in your root environment:
 
-for linux system:
-   conda env create -f environment_linux.yml
-for mac os x:
-   conda env create -f environment_osx.yml
+.. code-block:: console
 
+    # create virtual environment
+    conda create -c conda-forge -n pci basemap pandas jupyter geopy
+
+    # activate environment
+    source activate pci
+
+    # interact with the notebook
+    jupyter notebook planecrashinfo.ipynb
+
+To deactivate and/or remove the environment again you simply do the following:
+
+.. code-block:: console
+
+    # deactivate environment
+    source deactivate pci
+
+    # remove environment
+    conda-env remove -n pci
+
+If you want to save a file describing this entire environment in order to recreate it later, you can also export the environment (once it's created) and recreate it from scratch as shown here:
+
+.. code-block:: console
+
+    # export environment
+    conda-env export -n pci -f environment.yml
+
+    # recreate environment from exported file
+    conda-env create -f environment.yml
+
+You can also try to use the `environment.yml` file contained in this folder.
 
 Preparation
 -----------
