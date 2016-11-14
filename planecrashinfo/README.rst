@@ -32,7 +32,7 @@ Using Python 3 is recommended, because this is the future! ;-) And Conda is the 
     source activate pci
 
     # interact with the notebook
-    jupyter notebook planecrashinfo.ipynb
+    jupyter-notebook planecrashinfo.ipynb
 
 To deactivate and/or remove the environment again you simply do the following:
 
