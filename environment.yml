@@ -1,4 +1,9 @@
 name: planes
+channels: !!python/tuple
+- !!python/unicode
+  'conda-forge'
+- !!python/unicode
+  'defaults'
 dependencies:
 - basemap=1.0.7=np111py35_0
 - conda-forge::geopy=1.11.0=py35_0
