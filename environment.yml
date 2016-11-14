@@ -1,0 +1,12 @@
+name: planes
+dependencies:
+- basemap=1.0.7=np111py35_0
+- conda-forge::geopy=1.11.0=py35_0
+- geos=3.4.2=0
+- jupyter=1.0.0=py35_3
+- matplotlib=1.5.3=np111py35_1
+- mkl=11.3.3=0
+- numpy=1.11.2=py35_0
+- pandas=0.19.0=np111py35_0
+- pip=9.0.0=py35_0
+- python=3.5.2=0
