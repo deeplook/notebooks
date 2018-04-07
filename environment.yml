@@ -1,5 +1,5 @@
 name: deeplook_notebooks
-channels: python/tuple
+channels:
 - defaults
 dependencies:
 - appnope=0.1.0=py35_0
