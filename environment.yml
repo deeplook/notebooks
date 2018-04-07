@@ -2,7 +2,6 @@ name: deeplook_notebooks
 channels:
 - defaults
 dependencies:
-- appnope=0.1.0=py35_0
 - conda-forge::backports.shutil_get_terminal_size=1.0.0=py35_0
 - conda-forge::basemap=1.0.8.dev0=np111py35_2
 - conda-forge::ca-certificates=2016.9.26=0
